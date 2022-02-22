@@ -1,0 +1,129 @@
+/** GERAL **/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(218, 119, 119) 16.62%, rgb(51, 189, 92) 85.61%); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** CABEÇALHO **/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+header .logo1 {
+    height: 200px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.navegacao-menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(61, 61, 61);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/** MAIN **/
+
+.informacoes-menu {
+    border-top: 0.4px solid #c0ac9b;
+
+}
+
+.nome-pizzaria {
+    font-family: 'Economica', sans-serif;
+    font-size: 42px;
+    color: rgb(255, 245, 245);
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+main .imagem {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url(imgs/pexels-engin-akyurt-2271194.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao-pizza {
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Economica', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 200px;
+    background-color: rgba(236, 214, 196, 0.53);
+    color: #FFF2E7;
+    width: 180px;
+    height: 70px;
+    border: none;
+    box-shadow: 4px 5px 4px rbga(0,0,0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(177, 152, 132, 0.53);
+}
+
+
+
+.oquefazemos {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: rgb(255, 245, 245);
+    padding-bottom: 60px;
+    border-bottom: 0.4px solid #c0ac9b;
+}
+
+.fazemos-titulo {
+    border-top: 0.04px solid #FFF2E7;
+    padding-top: 48px;
+    font-size: 42px;
+    color: rgb(255, 245, 245);
+    font-weight: 400;
+}
+
+/** FOOTER **/
+
+.logo2{
+    align-items: center;
+}
+
+.logo02{
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin: 0% auto;
+}
